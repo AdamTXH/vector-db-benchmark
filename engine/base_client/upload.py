@@ -69,6 +69,11 @@ class BaseUploader:
         total_time = time.perf_counter() - start
 
         print(f"Total import time: {total_time}")
+        
+        build_index_time = total_time - upload_time
+
+        print(f"Total time to build index: {build_index_time}")
+
 
         self.delete_client()
 
@@ -76,6 +81,7 @@ class BaseUploader:
             "post_upload": post_upload_stats,
             "upload_time": upload_time,
             "total_time": total_time,
+            "build_insert_index": build_index_time,
             "latencies": latencies,
         }
 
