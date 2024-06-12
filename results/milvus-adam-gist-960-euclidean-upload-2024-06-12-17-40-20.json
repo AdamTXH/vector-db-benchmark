@@ -1,0 +1,18 @@
+{
+  "params": {
+    "experiment": "milvus-adam",
+    "engine": "milvus",
+    "dataset": "gist-960-euclidean",
+    "parallel": 1,
+    "index_params": {
+      "efConstruction": 100,
+      "M": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 345.2037556790001,
+    "total_time": 707.8120890759997,
+    "build_insert_index": 362.60833339699957
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "params": {
+    "experiment": "elasticsearch-adam",
+    "engine": "elasticsearch",
+    "dataset": "gist-960-euclidean",
+    "parallel": 1,
+    "index_options": {
+      "m": 16,
+      "ef_construction": 100
+    },
+    "quantization_config": {
+      "scalar": {
+        "type": "int8",
+        "quantile": 0.99
+      }
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 1693.2469345530008,
+    "total_time": 3099.1702095220026,
+    "build_insert_index": 1405.9232749690018
+  }
+}

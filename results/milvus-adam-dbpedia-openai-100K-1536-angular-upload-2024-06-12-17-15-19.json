@@ -1,0 +1,18 @@
+{
+  "params": {
+    "experiment": "milvus-adam",
+    "engine": "milvus",
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "parallel": 1,
+    "index_params": {
+      "efConstruction": 100,
+      "M": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 38.01691801200013,
+    "total_time": 67.85564892499997,
+    "build_insert_index": 29.838730912999836
+  }
+}

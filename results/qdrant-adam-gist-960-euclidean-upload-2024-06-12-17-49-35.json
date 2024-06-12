@@ -1,0 +1,19 @@
+{
+  "params": {
+    "experiment": "qdrant-adam",
+    "engine": "qdrant",
+    "dataset": "gist-960-euclidean",
+    "parallel": 1,
+    "batch_size": 1024,
+    "hnsw_config": {
+      "m": 16,
+      "ef_construct": 100
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 202.10324339699946,
+    "total_time": 412.20133478800017,
+    "build_insert_index": 210.0980913910007
+  }
+}

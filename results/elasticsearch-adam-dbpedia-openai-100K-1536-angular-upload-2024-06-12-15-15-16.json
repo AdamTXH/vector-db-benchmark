@@ -1,0 +1,24 @@
+{
+  "params": {
+    "experiment": "elasticsearch-adam",
+    "engine": "elasticsearch",
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "parallel": 1,
+    "index_options": {
+      "m": 16,
+      "ef_construction": 100
+    },
+    "quantization_config": {
+      "scalar": {
+        "type": "int8",
+        "quantile": 0.99
+      }
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 251.72548896800072,
+    "total_time": 359.6690265750003,
+    "build_insert_index": 107.9435376069996
+  }
+}

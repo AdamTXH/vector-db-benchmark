@@ -1,0 +1,19 @@
+{
+  "params": {
+    "experiment": "weaviate-adam",
+    "engine": "weaviate",
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "batch_size": 1024,
+    "parallel": 1,
+    "vectorIndexConfig": {
+      "efConstruction": 100,
+      "maxConnections": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 28.598250850000113,
+    "total_time": 28.59833073000027,
+    "build_insert_index": 7.98800001575728e-05
+  }
+}

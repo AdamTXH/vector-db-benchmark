@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "gist-960-euclidean",
+    "experiment": "weaviate-adam",
+    "engine": "weaviate",
+    "parallel": 1,
+    "config": {
+      "ef": 40
+    }
+  },
+  "results": {
+    "total_time": 41.47875019200001,
+    "mean_time": 0.041331055725990155,
+    "mean_precisions": 0.6624500000000001,
+    "std_time": 0.28800965106801474,
+    "min_time": 0.001963912000064738,
+    "max_time": 3.55966540099962,
+    "rps": 24.10873026239035,
+    "p95_time": 0.028564753249838745,
+    "p99_time": 0.08831079584047918
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "experiment": "weaviate-adam",
+    "engine": "weaviate",
+    "parallel": 1,
+    "config": {
+      "ef": 40
+    }
+  },
+  "results": {
+    "total_time": 10.262999159999708,
+    "mean_time": 0.001490214568805095,
+    "mean_precisions": 0.9187799999999999,
+    "std_time": 0.0008738442425815596,
+    "min_time": 0.0008006060006664484,
+    "max_time": 0.044396193000466155,
+    "rps": 487.18702223884253,
+    "p95_time": 0.0020584205499744714,
+    "p99_time": 0.002747269020328532
+  }
+}

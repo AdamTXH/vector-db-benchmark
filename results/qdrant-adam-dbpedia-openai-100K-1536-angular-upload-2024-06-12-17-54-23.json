@@ -1,0 +1,19 @@
+{
+  "params": {
+    "experiment": "qdrant-adam",
+    "engine": "qdrant",
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "parallel": 1,
+    "batch_size": 1024,
+    "hnsw_config": {
+      "m": 16,
+      "ef_construct": 100
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 25.07825694100029,
+    "total_time": 35.11572825300027,
+    "build_insert_index": 10.03747131199998
+  }
+}

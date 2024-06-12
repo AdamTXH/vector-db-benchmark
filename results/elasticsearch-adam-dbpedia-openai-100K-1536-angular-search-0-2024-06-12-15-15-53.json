@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "dbpedia-openai-100K-1536-angular",
+    "experiment": "elasticsearch-adam",
+    "engine": "elasticsearch",
+    "parallel": 1,
+    "config": {
+      "num_candidates": 128
+    }
+  },
+  "results": {
+    "total_time": 36.876916223998705,
+    "mean_time": 0.006744912878991454,
+    "mean_precisions": 0.9783799999999999,
+    "std_time": 0.0045431231804270444,
+    "min_time": 0.003241462996811606,
+    "max_time": 0.2840561680022802,
+    "rps": 135.58617454965247,
+    "p95_time": 0.010753903199110938,
+    "p99_time": 0.015721723378519556
+  }
+}

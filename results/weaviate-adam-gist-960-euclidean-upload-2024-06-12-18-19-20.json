@@ -1,0 +1,19 @@
+{
+  "params": {
+    "experiment": "weaviate-adam",
+    "engine": "weaviate",
+    "dataset": "gist-960-euclidean",
+    "batch_size": 1024,
+    "parallel": 1,
+    "vectorIndexConfig": {
+      "efConstruction": 100,
+      "maxConnections": 16
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 352.02972722100003,
+    "total_time": 352.0298088260006,
+    "build_insert_index": 8.160500055964803e-05
+  }
+}
